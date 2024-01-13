@@ -13,6 +13,7 @@
 		501A91E12B4B801F00FE4C51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501A91E02B4B801F00FE4C51 /* Preview Assets.xcassets */; };
 		503A2B5E2B4CAB04000ECDAB /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A2B5D2B4CAB04000ECDAB /* TaskStore.swift */; };
 		503A2B602B4CAB32000ECDAB /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A2B5F2B4CAB32000ECDAB /* AddTaskView.swift */; };
+		50CD73502B52FF5000115E42 /* InstructionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD734F2B52FF5000115E42 /* InstructionalView.swift */; };
 		50E2E3802B4E3A8100248086 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2E37F2B4E3A8100248086 /* Task.swift */; };
 		50E2E3852B4E3BA600248086 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2E3842B4E3BA600248086 /* TaskCardView.swift */; };
 		50E2E3882B4E3BFB00248086 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2E3872B4E3BFB00248086 /* CustomTextField.swift */; };
@@ -28,6 +29,7 @@
 		501A91E02B4B801F00FE4C51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		503A2B5D2B4CAB04000ECDAB /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		503A2B5F2B4CAB32000ECDAB /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		50CD734F2B52FF5000115E42 /* InstructionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionalView.swift; sourceTree = "<group>"; };
 		50E2E37F2B4E3A8100248086 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		50E2E3842B4E3BA600248086 /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
 		50E2E3872B4E3BFB00248086 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				503A2B5F2B4CAB32000ECDAB /* AddTaskView.swift */,
 				501A91DB2B4B801B00FE4C51 /* ContentView.swift */,
 				50E2E3842B4E3BA600248086 /* TaskCardView.swift */,
+				50CD734F2B52FF5000115E42 /* InstructionalView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				501A91DA2B4B801B00FE4C51 /* _DO__To_do_List_App_App.swift in Sources */,
 				50E2E3802B4E3A8100248086 /* Task.swift in Sources */,
 				503A2B5E2B4CAB04000ECDAB /* TaskStore.swift in Sources */,
+				50CD73502B52FF5000115E42 /* InstructionalView.swift in Sources */,
 				50E2E38A2B4E3D2400248086 /* AddTaskButton.swift in Sources */,
 				503A2B602B4CAB32000ECDAB /* AddTaskView.swift in Sources */,
 				50E2E38C2B4E3D4A00248086 /* AddButtonStyle.swift in Sources */,

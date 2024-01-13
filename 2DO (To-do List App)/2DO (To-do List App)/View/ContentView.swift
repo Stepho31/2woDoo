@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+//    @AppStorage("hasSeenInstructions") private var hasSeenInstructions = false
+    
     @StateObject private var taskStore = TaskStore()
     
     @State private var newTask = ""
@@ -73,6 +75,10 @@ struct ContentView: View {
                             }
                         }
                 }
+//                if !hasSeenInstructions {
+                    CompactInstructionalView()
+                        .transition(.slide)
+//                }
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

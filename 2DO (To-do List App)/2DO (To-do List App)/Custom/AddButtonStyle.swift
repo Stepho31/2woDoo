@@ -20,4 +20,5 @@ struct AddButtonStyle: ButtonStyle {
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .scaleEffect(configuration.isPressed ? 0.9 : 1.0)
     }
+    
 }
